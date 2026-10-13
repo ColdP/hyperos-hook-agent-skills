@@ -10,6 +10,10 @@ Reusable Agent Skills for evidence-based HyperOS system analysis, native Hook de
 
 Use the Skill by loading [`skills/hyperos4-rust-launcher-native-hook/SKILL.md`](skills/hyperos4-rust-launcher-native-hook/SKILL.md) or invoking `$hyperos4-rust-launcher-native-hook` in an Agent environment that supports repository Skills. Its detailed procedures are in the linked `references/` files, and behavioral evaluation prompts are in [`skills/hyperos4-rust-launcher-native-hook/evals/test-cases.md`](skills/hyperos4-rust-launcher-native-hook/evals/test-cases.md).
 
+## Installation and contribution
+
+See [INSTALL.md](INSTALL.md) and [INSTALL_zh.md](INSTALL_zh.md) for setup instructions for ChatGPT Codex, Claude Code, OpenCode, and GitHub Copilot. Contributions and documentation corrections are described in [CONTRIBUTING.md](CONTRIBUTING.md) and [CONTRIBUTING_zh.md](CONTRIBUTING_zh.md).
+
 ## Evidence status
 
 The Skill uses four labels consistently:
@@ -24,6 +28,10 @@ The Skill itself provides reusable analysis methods and contains no proprietary 
 ## Current validation boundary
 
 The repository currently contains the first Skill and its templates; it does not claim that a particular HyperOS 4 Launcher version has been functionally hooked. Device-specific claims require the user or Agent to supply the matching artifact and runtime evidence, then label the result using the status terms above.
+
+## License
+
+This repository and its Skills are distributed under the [Apache License 2.0](LICENSE).
 
 ## Specification basis
 
