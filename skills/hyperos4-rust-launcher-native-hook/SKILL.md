@@ -1,6 +1,7 @@
 ---
 name: hyperos4-rust-launcher-native-hook
 description: Analyze and develop evidence-based HyperOS 4 Rust Launcher native hooks, including ELF and native symbol analysis, ABI-safe Rust hook design, hook loading verification, crash triage, and version compatibility work.
+license: Apache-2.0
 ---
 
 # HyperOS 4 Rust Launcher Native Hook Analysis & Development
