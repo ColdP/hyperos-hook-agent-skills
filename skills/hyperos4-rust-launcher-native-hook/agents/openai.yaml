@@ -1,0 +1,7 @@
+interface:
+  display_name: "HyperOS 4 Rust Launcher Native Hook"
+  short_description: "Analyze and debug HyperOS 4 native Launcher hooks"
+  default_prompt: "Use $hyperos4-rust-launcher-native-hook to analyze this HyperOS 4 Rust Launcher hook with evidence labels and a safe validation plan."
+
+policy:
+  allow_implicit_invocation: true
